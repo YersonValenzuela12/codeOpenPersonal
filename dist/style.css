@@ -1,0 +1,143 @@
+/* Estilos generales */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #203326; /* Color oscuro para texto para mejorar la legibilidad */
+  background-color: #f3f3f3; /* Color claro para el fondo general de la página */
+}
+
+/* Estilos para el encabezado y el pie de página */
+header,
+footer {
+  color: #203326; /* Color oscuro para el texto para contrastar con el fondo */
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Añadido para remover los márgenes por defecto */
+  margin-left: 20px;
+}
+
+nav ul li {
+  /* background-color: #5fc07e; */
+  display: inline;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: #203326; /* Manteniendo un color oscuro para texto para facilitar la lectura */
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+/* Estilos para las secciones y artículos */
+section {
+  padding: 20px;
+  margin: 20px 0; /* Ajustado para añadir espacio arriba y abajo de cada sección */
+}
+
+article {
+  background: #e9e9e9; /* Un fondo muy claro para los artículos para no dominar la atención */
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #5fc07e; /* Acento colorido para destacar */
+}
+
+/* Estilos para tablas */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #63a673; /* Color medio para los bordes, no muy dominante */
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #5fc07e; /* Color claro para el fondo de th para un contraste suave */
+  color: #203326; /* Color oscuro para el texto para facilitar la lectura */
+}
+
+/* Estilos para formularios */
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #63a673; /* Color medio para los bordes */
+  background-color: #e9e9e9; /* Fondo claro para los campos de entrada */
+}
+
+form input[type="submit"] {
+  background-color: #344138; /* Color oscuro para botones para destacar */
+  color: #f3f3f3; /* Color claro para el texto del botón */
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #596b5f; /* Color medio oscuro para el fondo al pasar el ratón */
+}
+
+h2.solida{
+text-shadow: -1px 1px #444, -2px 2px #aaa,
+-3px 3px #444, -4px 4px #444, -5px 5px #444;
+color: #00f;
+}
+h1.multiple{
+text-shadow: 1px 1px #00f, 2px 2px #aaa, 3px 3px #888, 4px 4px #666
+}olor: #666;
+}
+
+footer{
+     
+    background-color: #2d3235;
+    padding-top: 30px;
+}
+
+footer.nav a,
+footer.nav a:hover{
+    color:#00f;
+}
+
+footer.hr {
+    display: block;
+   
+               height: 1px;
+   
+                border: 0;
+   
+               border-top: 1px solid #595d60;
+    
+               margin: 1rem 0;
+   
+               padding: 0;
+            
+}
+
+footer.p {
+    color: #00f;
+  
+}
